@@ -1,0 +1,53 @@
+img {
+    width: 250px;
+    height: 150px;
+}
+#gifSelected div {
+    float: left;
+    margin: 5px;
+}
+.icon {
+    width: 100px;
+    height: 70px;
+    margin-left: -15px;
+}
+.iconText {
+    float: left;
+    margin-left: 5px;
+    width: 100px;
+    text-align: center;
+}
+#slideShow {
+    width: 100px;
+    height: 70px;
+    overflow: hidden;
+    float:left;
+    border: 5px solid black;
+    margin-left:5px;
+    margin-top:5px;
+}
+#slideShow .slide {
+    display: block;
+    width: 1000px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    animation: slideEffect 30s ease-in-out 0s infinite normal forwards running;
+}
+.slide .slider {
+    float:left;
+    list-style-type: none;
+    width: 100px;
+    height: 70px;
+}
+#gifSelected {
+    float:left;
+}
+@keyframes slideEffect {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: -900px;
+    }
+}
