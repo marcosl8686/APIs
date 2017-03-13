@@ -1,6 +1,8 @@
 img {
     width: 250px;
     height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid black;
 }
 #gifSelected div {
     float: left;
@@ -22,9 +24,10 @@ img {
     height: 70px;
     overflow: hidden;
     float:left;
-    border: 5px solid black;
+    border: 2px solid black;
     margin-left:5px;
     margin-top:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #slideShow .slide {
     display: block;
@@ -50,4 +53,21 @@ img {
     to {
         margin-left: -900px;
     }
+}
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#gifForm {
+    margin-top: 10px;
+}
+main {
+    margin-top: 30px;
+}
+.iconBtn {
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rapDiv {
+    float: left;
+    width: 150px;
 }
