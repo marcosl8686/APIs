@@ -47,7 +47,7 @@ $(document).ready(function() {
     function topicsRender() {
         for (var i = 0; i < topics.length; i++){
             var gifSelected = topics[i];
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifSelected + "&api_key=dc6zaTOxFJmzC&limit=10";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifSelected + "&api_key=dc6zaTOxFJmzC&limit=10";
             $.ajax({
                 async: false,
                 url: queryURL,
